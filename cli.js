@@ -17,9 +17,8 @@ var url = link || 'https://cdn.rawgit.com/jstransformers/meta/master/owners.json
 got.get(url, function(err, res) {
   var owners = JSON.parse(res).owners;
   var cmds = [];
-  delete owners[0];
 
-  owners.filter(Boolean).forEach(function(name) {
+  owners.forEach(function(name) {
     cmds.push({cmd: 'npm', args: ['owner', 'add', name]});
   });
   cmd(cmds, function(err) {
