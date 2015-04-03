@@ -1,6 +1,6 @@
-## [![npm][npmjs-img]][npmjs-url] [![mit license][license-img]][license-url] [![deps status][daviddm-img]][daviddm-url]
+## [![npm][npmjs-img]][npmjs-url] [![mit license][license-img]][license-url]
 
-> add owners to the npm package through given json populated with author npm usernames
+> Add owners to the npm package through given json populated with author npm usernames
 
 ## Install
 ```
