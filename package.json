@@ -1,0 +1,44 @@
+{
+  "name": "add-package-owners",
+  "version": "0.0.4",
+  "description": "add owners to the npm package through given json populated with author npm usernames",
+  "scripts": {
+    "lint": "jshint index.js && jscs index.js --reporter inline"
+  },
+  "author": {
+    "name": "Charlike Mike Reagent",
+    "email": "mameto_100@mail.bg",
+    "url": "https://github.com/tunnckoCore"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/tunnckoCore/add-package-owners.git"
+  },
+  "keywords": [
+    "add",
+    "author",
+    "json",
+    "npm",
+    "owners",
+    "package",
+    "populate",
+    "usernames"
+  ],
+  "license": {
+    "type": "MIT",
+    "url": "https://github.com/tunnckoCore/add-package-owners/blob/master/license.md"
+  },
+  "dependencies": {
+    "got": "^2.6.0",
+    "spawn-commands": "^0.2.0"
+  },
+  "devDependencies": {
+    "istanbul-harmony": "~0.3.1",
+    "testit": "~2.0.2"
+  },
+  "bin": {
+    "add-package-owners": "cli.js",
+    "add-owners": "cli.js",
+    "owners": "cli.js"
+  }
+}
