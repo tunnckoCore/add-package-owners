@@ -12,7 +12,7 @@ var fs = require('fs');
 var got = require('got');
 var cmd = require('spawn-commands');
 var link = process.argv.slice(2)[0];
-var url = link || 'https://cdn.rawgit.com/jstransformers/meta/master/owners.json';
+var url = link || 'https://rawgit.com/jstransformers/meta/master/owners.json';
 
 got.get(url, function(err, res) {
   var owners = JSON.parse(res).owners;
