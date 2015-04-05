@@ -1,6 +1,6 @@
 {
   "name": "add-package-owners",
-  "version": "0.3.1",
+  "version": "0.4.0",
   "description": "Add owners to the npm package through given json populated with author npm usernames",
   "scripts": {
     "lint": "jshint index.js && jscs index.js --reporter inline"
@@ -30,12 +30,9 @@
   },
   "dependencies": {
     "got": "^2.6.0",
-    "spawn-commands": "^0.2.0"
+    "spawn-commands": "~0.2.0"
   },
-  "devDependencies": {
-    "istanbul-harmony": "~0.3.1",
-    "testit": "~2.0.2"
-  },
+  "devDependencies": {},
   "bin": {
     "add-package-owners": "cli.js",
     "add-owners": "cli.js",
