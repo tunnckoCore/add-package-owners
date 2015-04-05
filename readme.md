@@ -28,7 +28,7 @@ If you want to use that for other organization just add
 somewhere and give a link to the file
 
 ```
-add-owners https://cdn.rawgit.com/jstransformers/meta/master/owners.json
+add-owners https://rawgit.com/jstransformers/meta/master/owners.json
 ```
 
 
