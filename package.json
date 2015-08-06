@@ -1,6 +1,6 @@
 {
   "name": "add-package-owners",
-  "version": "0.4.0",
+  "version": "0.5.0",
   "description": "Add owners to the npm package through given json populated with author npm usernames",
   "scripts": {
     "lint": "jshint index.js && jscs index.js --reporter inline"
