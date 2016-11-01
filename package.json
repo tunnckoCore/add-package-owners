@@ -29,8 +29,8 @@
     "url": "https://github.com/tunnckoCore/add-package-owners/blob/master/license.md"
   },
   "dependencies": {
-    "got": "^2.6.0",
-    "spawn-commands": "~0.2.0"
+    "got": "^6.5.0",
+    "spawn-commands": "~0.3.1"
   },
   "devDependencies": {},
   "bin": {
